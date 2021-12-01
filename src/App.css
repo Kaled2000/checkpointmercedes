@@ -1,6 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.con{
+  margin-top: 5%;
+  padding-left: 35%;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.profession {
+  font-style: bold;
+  font-size: bold;
+
+}
 .App {
   text-align: center;
+  background-color: aqua;
+  width: auto;
+  height: 625px;
+  margin-top: 0%;
+  position: sticky;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +55,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.btn{
+  margin-left: 10%;
 }
